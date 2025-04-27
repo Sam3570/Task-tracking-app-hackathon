@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "node server.mjs"
+    "start": "node index.js"
   },
   "dependencies": {
     "antd": "^5.24.2",

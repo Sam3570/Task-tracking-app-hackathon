@@ -1,22 +1,13 @@
 import React from 'react';
-import Home from './Pages/Home';
-import Navigation from './Components/Navigation';
-import Contact from './Pages/Contact';
-import About from './Pages/About';
-import Footer from './Components/Footer';
-import LoginPage from './Pages/Login';
-import SignUp from './Pages/Register';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; //yeh sara to remove nhi hoga?
-
+import 'react-toastify/dist/ReactToastify.css';
 import React, { useContext, useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import { AuthProvider, AuthContext } from "./contexts/AuthContext";
 import { TaskProvider, TaskContext } from "./contexts/TaskContext";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import TaskBoard from "./pages/TaskBoard";
+import Login from "./Pages/Login.jsx";
+import Register from "./Pages/Register.jsx";
+import TaskBoard from "./Pages/TaskBoard.jsx";
 
 function App() {
   return (
